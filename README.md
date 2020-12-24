@@ -16,3 +16,6 @@ We welcome everyone that wants to contribute. Please see the contribution page f
 
 ## Join us in social media!
 - Discord - [Full Stack](https://discord.gg/9vCkAJpDpr)
+
+## Resources used
+- https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf
