@@ -1,4 +1,10 @@
 class States_Abbreviated:
+    def __init__(self, is_DC_state):
+        if not is_DC_state:
+           self.south_atlantic.remove('DC')
+           self.all_states.remove('DC')
+           self.south_region.remove('DC')
+           
     east_north_central = ['IL', 'IN', 'MI', 'OH', 'WI']
     
     east_south_central = ['AL', 'KY', 'MS', 'TN']
@@ -34,13 +40,13 @@ class States_Abbreviated:
     west_region = []
     west_region.extend(mountain + pacific)  
     
+class States_Full_Name:
     def __init__(self, is_DC_state):
         if not is_DC_state:
-           self.south_atlantic.remove('DC')
-           self.all_states.remove('DC')
-           self.south_region.remove('DC')
-    
-class States_Full_Name:
+           self.south_atlantic.remove('District of Columbia')
+           self.all_states.remove('District of Columbia')
+           self.south_region.remove('District of Columbia')
+           
     east_north_central = ['Illinois', 'Indiana', 'Michigan', 'Ohio', 'Wisconsin']
     
     east_south_central = ['Alabama', 'Kentucky', 'Mississippi', 'Tennessee']
@@ -75,9 +81,3 @@ class States_Full_Name:
     
     west_region = []
     west_region.extend(mountain + pacific)  
-    
-    def __init__(self, is_DC_state):
-        if not is_DC_state:
-           self.south_atlantic.remove('District of Columbia')
-           self.all_states.remove('District of Columbia')
-           self.south_region.remove('District of Columbia')
