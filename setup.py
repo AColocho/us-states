@@ -12,11 +12,11 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AColocho/us-states",
-    packages=setuptools.find_packages(exclude=("tests")),
+    packages=setuptools.find_packages(exclude=(["tests","data"])),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Boost Software License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.7',
 )
