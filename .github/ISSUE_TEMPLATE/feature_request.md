@@ -6,6 +6,8 @@ labels: enhancement
 assignees: AColocho
 
 ---
+**Please describe the proposed feature.**
+A clear and concise description of the feature. Ex. The package should be able to retrieve [...]
 
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
