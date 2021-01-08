@@ -3,13 +3,13 @@ import json
 
 class Territories_Abbreviated:
     atlantic = ['PR','VI']
-    pacific = ['AS','GU','MP']
+    pacific = ['AS','GU','CNMI']
     
     all_territories = []
     all_territories.extend(atlantic + pacific)
     
 class Territories_Full_Name:
-    atlantic = ['Puerto Rico', 'U.S Virgin Islands']
+    atlantic = ['Puerto Rico', 'US Virgin Islands']
     pacific = ['American Samoa', 'Guam', 'Northern Mariana Islands']
     
     all_territories = []
