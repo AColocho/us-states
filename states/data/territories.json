@@ -19,6 +19,26 @@
         "time_zone": ["Chamorro Standard Time","GMT+10"],
         "region":"pacific"},
 
+    "Marshall Islands":{
+        "official_name":"Republic of the Marshall Islands",
+        "full_name":"Marshall Islands",
+        "abbreviated":"RMI",
+        "capital":"Majuro",
+        "population": 77917,
+        "area_sq_km": 181,
+        "time_zone": ["Marshall Islands Time","GMT+12"],
+        "region":"pacific"},
+
+    "Micronesia":{
+        "official_name":"Federated States of Micronesia",
+        "full_name":"Micronesia",
+        "abbreviated":"FSM",
+        "capital":"Palikir",
+        "population": 102436,
+        "area_sq_km": 702,
+        "time_zone": ["Ponape Time","GMT+11"],
+        "region":"pacific"},
+
     "Northern Mariana Islands":{
         "official_name":"Commonwealth of the Northern Mariana Islands",
         "full_name":"Northern Mariana Islands",
@@ -27,6 +47,16 @@
         "population": 51433,
         "area_sq_km":464,
         "time_zone": ["Chamorro Standard Time","GMT+10"],
+        "region":"pacific"},
+
+    "Palau":{
+        "official_name":"Republic of Palau",
+        "full_name":"Palau",
+        "abbreviated":"PW",
+        "capital":"Ngerulmud",
+        "population": 21685,
+        "area_sq_km":459,
+        "time_zone": ["Palau Time","GMT+9"],
         "region":"pacific"},
 
     "Puerto Rico":{
@@ -48,6 +78,5 @@
         "area_sq_km":1910,
         "time_zone": ["Atlantic Standard Time","GMT-4"],
         "region":"Atlantic"}
-
 
 }}
