@@ -16,8 +16,8 @@ class Territories_Full_Name:
     all_territories.extend(atlantic + pacific)
     
 class Associated_States:
-    pacific_abbreviated = ['FM','PW', 'MH']
-    pacific_full_name = ['Federated States of Micronesia','Republic of Palau', 'Marshall Islands']
+    pacific_abbreviated = ['FSM','PW', 'RMI']
+    pacific_full_name = ['Micronesia','Palau', 'Marshall Islands']
 
 class Uninhabited_Territories:
     all_territories = ['Baker Island', 'Howland Island', 'Johnston Atoll', 'Kingman Reef', 'Midway Island',
