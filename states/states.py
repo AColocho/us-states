@@ -41,8 +41,8 @@ class States_Abbreviated:
     west_region.extend(mountain + pacific)  
     
 class States_Full_Name:
-    def __init__(self, is_DC_state):
-        if not is_DC_state:
+    def __init__(self, DC_Statehood):
+        if not DC_Statehood:
            self.south_atlantic.remove('District of Columbia')
            self.all_states.remove('District of Columbia')
            self.south_region.remove('District of Columbia')
