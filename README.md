@@ -12,10 +12,10 @@ U.S States is a python package that provides information about states. This pack
 Before we get started, we need to define if we will grant DC statehood.
 ```python
 # If DC will be counted as a state
-states_abbreviated = States_Abbreviated(True)
+states_abbreviated = States_Abbreviated(DC_Statehood=True)
 
 # If DC will not be counted as a state
-states_full_name = States_Full_Name(False)
+states_full_name = States_Full_Name(DC_Statehood=False)
 ```
 
 States are divided by regions and divisions in accordance with the U.S Census. The following are the divisions, which are class attributes.
@@ -69,3 +69,4 @@ We welcome everyone that wants to contribute. Please see the contribution page f
 - https://www.cdc.gov/publichealthgateway/oia/territories-states.html
 - https://www.txdmv.gov/sites/default/files/body-files/State_and_Country_Codes.pdf
 - https://www.cia.gov/the-world-factbook/
+- https://www.census.gov/schools/facts/

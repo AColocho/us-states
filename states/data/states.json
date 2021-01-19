@@ -1,0 +1,122 @@
+{"states":
+    {"Alabama":{
+        "official_name":"Alabama",
+        "full_name":"Alabama",
+        "abbreviated":"AL",
+        "capital":"Montgomery",
+        "population": 4903185,
+        "area_sq_km":135765,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"South Region"},
+    
+    "Illinois":{
+        "official_name":"Illinois",
+        "full_name":"Illinois",
+        "abbreviated":"IL",
+        "capital":"Springfield",
+        "population": 12671821,
+        "area_sq_km":149997,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"Midwest Region"},
+
+    "Indiana":{
+        "official_name":"Indiana",
+        "full_name":"Indiana",
+        "abbreviated":"IN",
+        "capital":"Indianapolis",
+        "population": 6732219,
+        "area_sq_km":94321,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"Midwest Region"},
+    
+    "Kentucky":{
+        "official_name":"Commonwealth of Kentucky",
+        "full_name":"Kentucky",
+        "abbreviated":"KY",
+        "capital":"Frankfort",
+        "population": 4467673,
+        "area_sq_km":104656,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Region"},
+
+    "Michigan":{
+        "official_name":"Michigan",
+        "full_name":"Michigan",
+        "abbreviated":"MI",
+        "capital":"Lansing",
+        "population": 9883635,
+        "area_sq_km":250493,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"Midwest Region"},
+
+    "Mississippi":{
+        "official_name":"Mississippi",
+        "full_name":"Mississippi",
+        "abbreviated":"MS",
+        "capital":"Jackson",
+        "population": 2976149,
+        "area_sq_km":125443,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"South Region"},
+
+    "New Jersey":{
+        "official_name":"New Jersey",
+        "full_name":"New Jersey",
+        "abbreviated":"NJ",
+        "capital":"Trenton",
+        "population": 8882190,
+        "area_sq_km":22591,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"North East Region"},
+
+    "New York":{
+        "official_name":"New York",
+        "full_name":"New York",
+        "abbreviated":"NY",
+        "capital":"Albany",
+        "population": 19336776,
+        "area_sq_km":141300,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"North East Region"},
+
+    "Ohio":{
+        "official_name":"Ohio",
+        "full_name":"Ohio",
+        "abbreviated":"OH",
+        "capital":"Columbus",
+        "population": 11689100,
+        "area_sq_km":116096,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"Midwest Region"},
+
+    "Pennsylvania":{
+        "official_name":"Commonwealth of Pennsylvania",
+        "full_name":"Pennsylvania",
+        "abbreviated":"PA",
+        "capital":"Harrisburg",
+        "population": 12801989,
+        "area_sq_km":119283,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"North East Region"},
+
+    "Tennessee":{
+        "official_name":"Tennessee",
+        "full_name":"Tennessee",
+        "abbreviated":"TN",
+        "capital":"Nashville",
+        "population": 6829174,
+        "area_sq_km":109247,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Region"},
+
+    "Wisconsin":{
+        "official_name":"Wisconsin",
+        "full_name":"Wisconsin",
+        "abbreviated":"WI",
+        "capital":"Madison",
+        "population": 5822434,
+        "area_sq_km":169640,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"Midwest Region"}
+    }
+}
