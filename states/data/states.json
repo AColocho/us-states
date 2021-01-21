@@ -29,6 +29,16 @@
         "time_zone": ["Mountain Standard Time","GMT-7"],
         "region":"Mountain"},
 
+    "Arkansas":{
+        "official_name":"Arkansas",
+        "full_name":"Arkansas",
+        "abbreviated":"AR",
+        "capital":"Little Rock",
+        "population": 3017804,
+        "area_sq_km":137732,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West South Central"},
+
     "California":{
         "official_name":"California",
         "full_name":"California",
@@ -58,6 +68,46 @@
         "area_sq_km":14357,
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"New England"},
+
+    "Delaware":{
+        "official_name":"Delaware",
+        "full_name":"Delaware",
+        "abbreviated":"DE",
+        "capital":"Dover",
+        "population": 973764,
+        "area_sq_km":5130,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Atlantic"},
+
+    "District Of Columbia":{
+        "official_name":"District of Columbia",
+        "full_name":"Washington, D.C",
+        "abbreviated":"DC",
+        "capital":"None",
+        "population": 705749,
+        "area_sq_km":177,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Atlantic"},
+
+    "Florida":{
+        "official_name":"Florida",
+        "full_name":"Florida",
+        "abbreviated":"FL",
+        "capital":"Tallahassee",
+        "population": 21733312,
+        "area_sq_km":170312,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Atlantic"},
+
+    "Georgia":{
+        "official_name":"Georgia",
+        "full_name":"Georgia",
+        "abbreviated":"GA",
+        "capital":"Atlanta",
+        "population": 10617423,
+        "area_sq_km":153909,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Atlantic"},
 
     "Hawaii":{
         "official_name":"Hawaii",
@@ -98,6 +148,26 @@
         "area_sq_km":94321,
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"Midwest Region"},
+
+    "Iowa":{
+        "official_name":"Iowa",
+        "full_name":"Iowa",
+        "abbreviated":"IA",
+        "capital":"Des Moines",
+        "population": 3155070,
+        "area_sq_km":145744,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West North Central"},
+
+    "Kansas":{
+        "official_name":"Kansas",
+        "full_name":"Kansas",
+        "abbreviated":"KS",
+        "capital":"Topeka",
+        "population": 2913314,
+        "area_sq_km":213100,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West North Central"},
     
     "Kentucky":{
         "official_name":"Commonwealth of Kentucky",
@@ -109,6 +179,16 @@
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"South Region"},
 
+    "Louisiana":{
+        "official_name":"Louisiana",
+        "full_name":"Louisiana",
+        "abbreviated":"LA",
+        "capital":"Baton Rouge",
+        "population": 4648794,
+        "area_sq_km":135382,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West South Central"},
+
     "Maine":{
         "official_name":"Maine",
         "full_name":"Maine",
@@ -118,6 +198,16 @@
         "area_sq_km":91646,
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"New England"},
+
+    "Maryland":{
+        "official_name":"Maryland",
+        "full_name":"Maryland",
+        "abbreviated":"MD",
+        "capital":"Annapolis",
+        "population": 6045680,
+        "area_sq_km":32133,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Atlantic"},
 
     "Massachusetts":{
         "official_name":"Commonwealth of Massachusetts",
@@ -139,6 +229,16 @@
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"Midwest Region"},
 
+    "Minnesota":{
+        "official_name":"Minnesota",
+        "full_name":"Minnesota",
+        "abbreviated":"MN",
+        "capital":"Saint Paul",
+        "population": 5639632,
+        "area_sq_km":225163,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West North Central"},
+
     "Mississippi":{
         "official_name":"Mississippi",
         "full_name":"Mississippi",
@@ -149,6 +249,16 @@
         "time_zone": ["Central Standard Time","GMT-6"],
         "region":"South Region"},
 
+    "Missouri":{
+        "official_name":"Missouri",
+        "full_name":"Missouri",
+        "abbreviated":"MO",
+        "capital":"Jefferson City",
+        "population": 6137428,
+        "area_sq_km":180560,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West North Central"},
+
     "Montana":{
         "official_name":"Montana",
         "full_name":"Montana",
@@ -158,6 +268,36 @@
         "area_sq_km":380800,
         "time_zone": ["Mountain Standard Time","GMT-7"],
         "region":"Mountain"},
+    
+    "North Carolina":{
+        "official_name":"North Carolina",
+        "full_name":"North Carolina",
+        "abbreviated":"NC",
+        "capital":"Raleigh",
+        "population": 10488084,
+        "area_sq_km":139390,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Atlantic"},
+
+    "North Dakota":{
+        "official_name":"North Dakota",
+        "full_name":"North Dakota",
+        "abbreviated":"ND",
+        "capital":"Bismarck",
+        "population": 762062,
+        "area_sq_km":183123,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West North Central"},
+
+    "Nebraska":{
+        "official_name":"Nebraska",
+        "full_name":"Nebraska",
+        "abbreviated":"NE",
+        "capital":"Lincoln",
+        "population": 1934408,
+        "area_sq_km":200356,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West North Central"},
 
     "Nevada":{
         "official_name":"Nevada",
@@ -219,6 +359,16 @@
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"Midwest Region"},
 
+    "Oklahoma":{
+        "official_name":"Oklahoma",
+        "full_name":"Oklahoma",
+        "abbreviated":"OK",
+        "capital":"Oklahoma City",
+        "population": 3980783,
+        "area_sq_km":181037,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West South Central"},
+
     "Oregon":{
         "official_name":"Oregon",
         "full_name":"Oregon",
@@ -249,6 +399,26 @@
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"New England"},
 
+    "South Carolina":{
+        "official_name":"South Carolina",
+        "full_name":"South Carolina",
+        "abbreviated":"SC",
+        "capital":"Columbia",
+        "population": 5148714,
+        "area_sq_km":82932,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Atlantic"},
+
+    "South Dakota":{
+        "official_name":"South Dakota",
+        "full_name":"South Dakota",
+        "abbreviated":"SD",
+        "capital":"Pierre",
+        "population": 884659,
+        "area_sq_km":199729,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West North Central"},
+
     "Tennessee":{
         "official_name":"Tennessee",
         "full_name":"Tennessee",
@@ -259,6 +429,16 @@
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"South Region"},
 
+    "Texas":{
+        "official_name":"Texas",
+        "full_name":"Texas",
+        "abbreviated":"TX",
+        "capital":"Austin",
+        "population": 29360759,
+        "area_sq_km":695662,
+        "time_zone": ["Central Standard Time","GMT-6"],
+        "region":"West South Central"},
+
     "Utah":{
         "official_name":"Utah",
         "full_name":"Utah",
@@ -268,6 +448,16 @@
         "area_sq_km":219887,
         "time_zone": ["Mountain Standard Time","GMT-7"],
         "region":"Mountain"},
+
+    "Virginia":{
+        "official_name":"Commonwealth of Virginia",
+        "full_name":"Virginia",
+        "abbreviated":"VA",
+        "capital":"Richmond",
+        "population": 8535519,
+        "area_sq_km":110786,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Atlantic"},
 
     "Vermont":{
         "official_name":"Vermont",
@@ -288,6 +478,16 @@
         "area_sq_km":184827,
         "time_zone": ["Pacific Standard Time","GMT-8"],
         "region":"Pacific"},
+
+    "West Virginia":{
+        "official_name":"West Virginia",
+        "full_name":"West Virginia",
+        "abbreviated":"WV",
+        "capital":"Charleston",
+        "population": 1792147,
+        "area_sq_km":62755,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"South Atlantic"},
 
     "Wisconsin":{
         "official_name":"Wisconsin",
