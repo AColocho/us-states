@@ -1,3 +1,6 @@
+import importlib.resources
+import json
+
 class States_Abbreviated:
     def __init__(self, is_DC_state):
         if not is_DC_state:
@@ -80,4 +83,31 @@ class States_Full_Name:
     south_region.extend(south_atlantic + east_south_central + west_south_central)
     
     west_region = []
-    west_region.extend(mountain + pacific)  
+    west_region.extend(mountain + pacific)
+
+class States:
+    with importlib.resources.path('data', "states.json") as _data_file:
+        _data = json.loads(_data_file.read_text())
+    
+    def get_states_info(self,full_name):
+        """
+        Params: 
+            full_name: The full name of the state to search. If 'all' is passed, then it will
+                        retrieve the full name of all territories.
+            
+        Returns:
+            Dictionary with state information when a state name is passed.
+            If 'all' is passed, then it will return the full name of state in list form.
+        """
+        state_data = self._data['states']
+        
+        if full_name == 'all':
+            state_info = list(state_data.keys())
+            
+        else:
+            full_name = full_name.title()
+
+            state_info = state_data.get(full_name, 
+                        "Sorry try typing the name of the state again, or pass 'all' for full_name to view all states.")
+        
+        return state_info
