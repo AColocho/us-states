@@ -9,6 +9,76 @@
         "time_zone": ["Central Standard Time","GMT-6"],
         "region":"South Region"},
     
+    "Alaska":{
+        "official_name":"Alaska",
+        "full_name":"Alaska",
+        "abbreviated":"AK",
+        "capital":"Juneau",
+        "population": 710249,
+        "area_sq_km":1717856,
+        "time_zone": ["Alaska Standard Time","GMT-9"],
+        "region":"Pacific"},
+
+    "Arizona":{
+        "official_name":"Arizona",
+        "full_name":"Arizona",
+        "abbreviated":"AZ",
+        "capital":"Phoenix",
+        "population": 7278717,
+        "area_sq_km":295234,
+        "time_zone": ["Mountain Standard Time","GMT-7"],
+        "region":"Mountain"},
+
+    "California":{
+        "official_name":"California",
+        "full_name":"California",
+        "abbreviated":"CA",
+        "capital":"Sacramento",
+        "population": 39368078,
+        "area_sq_km":423970,
+        "time_zone": ["Pacific Standard Time","GMT-8"],
+        "region":"Pacific"},
+
+    "Colorado":{
+        "official_name":"Colorado",
+        "full_name":"Colorado",
+        "abbreviated":"CO",
+        "capital":"Denver",
+        "population": 5758736,
+        "area_sq_km":269837,
+        "time_zone": ["Mountain Standard Time","GMT-7"],
+        "region":"Mountain"},
+
+    "Connecticut":{
+        "official_name":"Connecticut",
+        "full_name":"Connecticut",
+        "abbreviated":"CT",
+        "capital":"Hartford",
+        "population": 3565287,
+        "area_sq_km":14357,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"New England"},
+
+    "Hawaii":{
+        "official_name":"Hawaii",
+        "full_name":"Hawaii",
+        "abbreviated":"HI",
+        "capital":"Honolulu",
+        "population": 1415872,
+        "area_sq_km":28311,
+        "time_zone": ["Hawaii-Aleutian Standard Time","GMT-10"],
+        "region":"Pacific"},
+
+    "Idaho":{
+        "official_name":"Idaho",
+        "full_name":"Idaho",
+        "abbreviated":"ID",
+        "capital":"Boise",
+        "population": 1787065,
+        "area_sq_km":216443,
+        "time_zone": ["Mountain Standard Time","GMT-7"],
+        "region":"Mountain"},
+    
     "Illinois":{
         "official_name":"Illinois",
         "full_name":"Illinois",
@@ -39,6 +109,26 @@
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"South Region"},
 
+    "Maine":{
+        "official_name":"Maine",
+        "full_name":"Maine",
+        "abbreviated":"ME",
+        "capital":"Augusta",
+        "population": 1344212,
+        "area_sq_km":91646,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"New England"},
+
+    "Massachusetts":{
+        "official_name":"Commonwealth of Massachusetts",
+        "full_name":"Massachusetts",
+        "abbreviated":"MA",
+        "capital":"Boston",
+        "population": 6892503,
+        "area_sq_km":27337,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"New England"},
+
     "Michigan":{
         "official_name":"Michigan",
         "full_name":"Michigan",
@@ -59,6 +149,36 @@
         "time_zone": ["Central Standard Time","GMT-6"],
         "region":"South Region"},
 
+    "Montana":{
+        "official_name":"Montana",
+        "full_name":"Montana",
+        "abbreviated":"MT",
+        "capital":"Helena",
+        "population": 1068778,
+        "area_sq_km":380800,
+        "time_zone": ["Mountain Standard Time","GMT-7"],
+        "region":"Mountain"},
+
+    "Nevada":{
+        "official_name":"Nevada",
+        "full_name":"Nevada",
+        "abbreviated":"NV",
+        "capital":"Carson City",
+        "population": 3080156,
+        "area_sq_km":286382,
+        "time_zone": ["Mountain Standard Time","GMT-7"],
+        "region":"Mountain"},
+
+    "New Hampshire":{
+        "official_name":"New Hampshire",
+        "full_name":"New Hampshire",
+        "abbreviated":"NH",
+        "capital":"Concord",
+        "population": 1359711,
+        "area_sq_km":9349,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"New England"},
+
     "New Jersey":{
         "official_name":"New Jersey",
         "full_name":"New Jersey",
@@ -68,6 +188,16 @@
         "area_sq_km":22591,
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"North East Region"},
+
+    "New Mexico":{
+        "official_name":"New Mexico",
+        "full_name":"New Mexico",
+        "abbreviated":"NM",
+        "capital":"Santan Fe",
+        "population": 2096829,
+        "area_sq_km":314917,
+        "time_zone": ["Mountain Standard Time","GMT-7"],
+        "region":"Mountain"},
 
     "New York":{
         "official_name":"New York",
@@ -89,6 +219,16 @@
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"Midwest Region"},
 
+    "Oregon":{
+        "official_name":"Oregon",
+        "full_name":"Oregon",
+        "abbreviated":"OR",
+        "capital":"Salem",
+        "population": 4217737,
+        "area_sq_km":254806,
+        "time_zone": ["Pacific Standard Time","GMT-8"],
+        "region":"Pacific"},
+
     "Pennsylvania":{
         "official_name":"Commonwealth of Pennsylvania",
         "full_name":"Pennsylvania",
@@ -98,6 +238,16 @@
         "area_sq_km":119283,
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"North East Region"},
+
+    "Rhode Island":{
+        "official_name":"Rhode Island",
+        "full_name":"Rhode Island",
+        "abbreviated":"RI",
+        "capital":"Providence",
+        "population": 1059361,
+        "area_sq_km":3144,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"New England"},
 
     "Tennessee":{
         "official_name":"Tennessee",
@@ -109,6 +259,36 @@
         "time_zone": ["Eastern Standard Time","GMT-5"],
         "region":"South Region"},
 
+    "Utah":{
+        "official_name":"Utah",
+        "full_name":"Utah",
+        "abbreviated":"UT",
+        "capital":"Salt Lake City",
+        "population": 3205958,
+        "area_sq_km":219887,
+        "time_zone": ["Mountain Standard Time","GMT-7"],
+        "region":"Mountain"},
+
+    "Vermont":{
+        "official_name":"Vermont",
+        "full_name":"Vermont",
+        "abbreviated":"VT",
+        "capital":"Montpelier",
+        "population": 623989,
+        "area_sq_km":24923,
+        "time_zone": ["Eastern Standard Time","GMT-5"],
+        "region":"New England"},
+
+    "Washington":{
+        "official_name":"Washington",
+        "full_name":"Washington",
+        "abbreviated":"WA",
+        "capital":"Olympia",
+        "population": 7614893,
+        "area_sq_km":184827,
+        "time_zone": ["Pacific Standard Time","GMT-8"],
+        "region":"Pacific"},
+
     "Wisconsin":{
         "official_name":"Wisconsin",
         "full_name":"Wisconsin",
@@ -117,6 +297,16 @@
         "population": 5822434,
         "area_sq_km":169640,
         "time_zone": ["Central Standard Time","GMT-6"],
-        "region":"Midwest Region"}
+        "region":"Midwest Region"},
+
+    "Wyoming":{
+        "official_name":"Wyoming",
+        "full_name":"Wyoming",
+        "abbreviated":"WY",
+        "capital":"Cheyenne",
+        "population": 578759,
+        "area_sq_km":253600,
+        "time_zone": ["Mountain Standard Time","GMT-7"],
+        "region":"Mountain"}
     }
 }
