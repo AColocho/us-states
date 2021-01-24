@@ -1,5 +1,6 @@
 from states import States_Abbreviated
 from states import States_Full_Name
+from states import States
 import unittest
 
 class Abbreviated_Test(unittest.TestCase):
@@ -69,6 +70,15 @@ class States_Full_Name_Test(unittest.TestCase):
         states = States_Full_Name(True)
         all_states = states.all_states
         self.assertEqual(51, len(all_states, 'There is less or more than 51 states recognized. This includes District of Columbia.'))
+        
+class State_Test(unittest.TestCase):
+    def check_search_returns_info(self):
+        """
+        Checks that the search function returns the correct value.
+        """
+        VA = States().get_state_info('Virginia')
+        full_name = VA['full_name']
+        self.assertTrue(full_name == 'Virginia', 'Search function is not retrieving the right value. Used Virginia as a Test.')
 
 if __name__ == "__main__":
     unittest.main()

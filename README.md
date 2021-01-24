@@ -38,6 +38,36 @@ In order to retrieve all the states, the all_states attribute can be used.
 
 These attributes can be found on both the States_Full_Name() and States_Abbreviated() class.
 
+This package contains information about each state, here is a list of the info included:
+- official_name
+- full_name
+- abbreviated
+- capital
+- population
+- area_sq_km
+- time_zone
+- region
+
+In order to retrieve this info, the get_states_info() method can be use.
+```python
+states = States()
+virginia_info = states.get_state_info('Virginia')
+```
+Which would return the following.
+```
+{   "official_name":"Commonwealth of Virginia",
+    "full_name":"Virginia",
+    "abbreviated":"VA",
+    "capital":"Richmond",
+    "population": 8535519,
+    "area_sq_km":110786,
+    "time_zone": ["Eastern Standard Time","GMT-5"],
+    "region":"South Atlantic"}
+```
+**Keep in mind** Some states contain more than one time zone depending which town you are located. At the moment, the info only contains the major one.
+
+You can pull all the available states by passing the function "all".
+
 ### **Territories**
 Territories have the following classes:
 - Territories_Abbreviated
@@ -56,6 +86,35 @@ Associated_States contains the following attributes:
 
 Uninhabitated_Territories contains the following attributes:
 - all_territories
+
+This package contains information about each state, here is a list of the info included:
+- official_name
+- full_name
+- abbreviated
+- capital
+- population
+- area_sq_km
+- time_zone
+- region
+
+In order to retrieve this info, the get_states_info() method can be use.
+```python
+territories = Territories()
+virginia_info = territories.get_territory_info('Puerto Rico')
+```
+Which would return the following.
+```
+{   "official_name":"Commonwealth of Puerto Rico",
+    "full_name":"Puerto Rico",
+    "abbreviated":"PR",
+    "capital":"San Juan",
+    "population": 3193694,
+    "area_sq_km":9104,
+    "time_zone": ["Atlantic Standard Time","GMT-4"],
+    "region":"Atlantic"}
+```
+
+You can pull all the available territories by passing the function "all".
 
 ## Contribution
 We welcome everyone that wants to contribute. Please see the contribution page for guidelines on contributing and submitting feature requests.

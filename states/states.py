@@ -89,7 +89,7 @@ class States:
     with importlib.resources.path('data', "states.json") as _data_file:
         _data = json.loads(_data_file.read_text())
     
-    def get_states_info(self,full_name):
+    def get_state_info(self,full_name):
         """
         Params: 
             full_name: The full name of the state to search. If 'all' is passed, then it will
