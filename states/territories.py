@@ -1,5 +1,4 @@
-import importlib.resources
-import json
+from . import data
 
 class Territories_Abbreviated:
     atlantic = ['PR','VI']
@@ -24,8 +23,7 @@ class Uninhabited_Territories:
                        'Navassa Island', 'Palmyra Atoll']
 
 class Territories:
-    with importlib.resources.path('data', "territories.json") as _data_file:
-        _data = json.loads(_data_file.read_text())
+    _data_ = data._territories_data_
     
     def get_territory_info(self,full_name):
         """
