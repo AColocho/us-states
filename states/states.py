@@ -1,5 +1,4 @@
-import importlib.resources
-import json
+from . import data
 
 class States_Abbreviated:
     def __init__(self, is_DC_state):
@@ -86,8 +85,7 @@ class States_Full_Name:
     west_region.extend(mountain + pacific)
 
 class States:
-    with importlib.resources.path('data', "states.json") as _data_file:
-        _data = json.loads(_data_file.read_text())
+    _data_ = data._states_data_
     
     def get_state_info(self,full_name):
         """
@@ -99,7 +97,7 @@ class States:
             Dictionary with state information when a state name is passed.
             If 'all' is passed, then it will return the full name of state in list form.
         """
-        state_data = self._data['states']
+        state_data = self._data_['states']
         
         if full_name == 'all':
             state_info = list(state_data.keys())

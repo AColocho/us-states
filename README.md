@@ -12,9 +12,13 @@ U.S States is a python package that provides information about states. This pack
 Before we get started, we need to define if we will grant DC statehood.
 ```python
 # If DC will be counted as a state
+from states import States_Abbreviated
+
 states_abbreviated = States_Abbreviated(DC_Statehood=True)
 
 # If DC will not be counted as a state
+from states import States_Full_Name
+
 states_full_name = States_Full_Name(DC_Statehood=False)
 ```
 
@@ -69,6 +73,7 @@ Which would return the following.
 You can pull all the available states by passing the function "all".
 
 ### **Territories**
+You can access the territory classes by importing them from states.
 Territories have the following classes:
 - Territories_Abbreviated
 - Territories_Full_Name

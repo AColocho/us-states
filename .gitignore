@@ -13,6 +13,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.pypirc
 build/
 develop-eggs/
 dist/
@@ -196,3 +197,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Vscode
+.vscode
