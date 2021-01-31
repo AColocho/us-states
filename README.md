@@ -8,17 +8,21 @@ U.S States is a python package that provides information about states. This pack
 </a>
 
 ## Documents
+### **Install**
+The package can be downloaded from PyPi by using pip3 in the following way:
+```
+pip3 install unitedstates
+```
+
 ### **States**
 Before we get started, we need to define if we will grant DC statehood.
 ```python
 # If DC will be counted as a state
 from states import States_Abbreviated
-
 states_abbreviated = States_Abbreviated(DC_Statehood=True)
 
 # If DC will not be counted as a state
 from states import States_Full_Name
-
 states_full_name = States_Full_Name(DC_Statehood=False)
 ```
 
@@ -32,6 +36,10 @@ States are divided by regions and divisions in accordance with the U.S Census. T
 - south_atlantic
 - west_north_central
 - west_south_central
+
+```python
+mountain_states = states_full_name.mountain
+```
 
 The following are regions, which are class attributes.
 - northeast_region
@@ -54,6 +62,7 @@ This package contains information about each state, here is a list of the info i
 
 In order to retrieve this info, the get_states_info() method can be use.
 ```python
+from states import States
 states = States()
 virginia_info = states.get_state_info('Virginia')
 ```
@@ -80,10 +89,18 @@ Territories have the following classes:
 - Associated_States
 - Uninhabitated_Territories
 
+```python
+from states import Territories_Abbreviated
+```
+
 Both the Territories_Abbreviated and Territories_Full_Name contain the following attributes:
 - atlantic
 - pacific
 - all_territories
+
+```python
+atlantic_territories = Territories_Abbreviated().atlantic
+```
 
 Associated_States contains the following attributes:
 - pacific_abbreviated
@@ -102,8 +119,9 @@ This package contains information about each state, here is a list of the info i
 - time_zone
 - region
 
-In order to retrieve this info, the get_states_info() method can be use.
+In order to retrieve this info, the get_territory_info() method can be use.
 ```python
+from states import Territories
 territories = Territories()
 virginia_info = territories.get_territory_info('Puerto Rico')
 ```
