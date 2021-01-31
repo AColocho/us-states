@@ -1,8 +1,5 @@
-import importlib.resources
-import json
+from .states_data import _states_data_
+from .territories_data import _territories_data_
 
-with importlib.resources.path('data/states.json') as _states_file_:
-    _states_data_ = json.loads(_states_file_.read())
-
-with importlib.resources.path(".data","territories.json") as _territories_file_:
-    _territories_data_ = json.loads(_territories_file_.read())
+_states_data_ = _states_data_().states
+_territories_data_ = _territories_data_().territories
