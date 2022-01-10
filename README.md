@@ -2,7 +2,6 @@
 U.S States is a python package that provides information about states. This package is currently being built, so there is information that will be missing at the moment. 
 
 <a><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/AColocho/us-states?color=%234B0082&style=plastic">
-<img alt="Discord" src="https://img.shields.io/discord/789207949054181376?label=Discord&color=%23008000&style=plastic">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/AColocho/us-states?style=plastic">
 <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/AColocho/us-states?color=%23008000&style=plastic">
 </a>
@@ -77,7 +76,7 @@ Which would return the following.
     "time_zone": ["Eastern Standard Time","GMT-5"],
     "region":"South Atlantic"}
 ```
-**Keep in mind** Some states contain more than one time zone depending which town you are located. At the moment, the info only contains the major one.
+**Keep in mind** Some states contain more than one time zone depending on which town you are located in. At the moment, the info only contains the major one.
 
 You can pull all the available states by passing the function "all".
 
@@ -119,7 +118,7 @@ This package contains information about each state, here is a list of the info i
 - time_zone
 - region
 
-In order to retrieve this info, the get_territory_info() method can be use.
+In order to retrieve this info, the get_territory_info() method can be used.
 ```python
 from states import Territories
 territories = Territories()
@@ -142,8 +141,6 @@ You can pull all the available territories by passing the function "all".
 ## Contribution
 We welcome everyone that wants to contribute. Please see the contribution page for guidelines on contributing and submitting feature requests.
 
-## Join us in social media!
-- Discord - [Full Stack](https://discord.gg/9vCkAJpDpr)
 
 ## Resources used
 - https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf
