@@ -19,4 +19,6 @@ Please use the request a feature template in issues to contribute a feature.
 Please use the request a feature template in issues to contribute your changes.
 
 ## Thanks to our contributors!
-Bryant Juspi (bjuspi)
+Aaditya Joshi (Aadityajoshi151)  
+Bryant Juspi (bjuspi)  
+Valan Baptist Mathuranayagam (valanm22)

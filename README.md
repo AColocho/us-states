@@ -6,6 +6,7 @@ U.S States is a python package that provides information about states. This pack
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/AColocho/us-states?style=plastic">
 <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/AColocho/us-states?color=%23008000&style=plastic">
 </a>
+[![Downloads](https://static.pepy.tech/personalized-badge/unitedstates?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/unitedstates)
 
 ## Documentation:
 
