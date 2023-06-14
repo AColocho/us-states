@@ -1,5 +1,5 @@
 # U.S States
-
+# DEPRECATED
 U.S States is a python package that provides information about states. This package is currently being built, so there is some information that will be missing at the moment.
 
 <a><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/AColocho/us-states?color=%234B0082&style=plastic">
